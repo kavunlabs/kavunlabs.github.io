@@ -12,6 +12,8 @@
       href="assets/images/logo/kavun2.svg"
       type="image/x-icon"
     />
+    <meta name="description" content="Kavun provides software solutions to enhance business efficiency and growth. Discover our range of products and services tailored for your business needs." />
+
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/tailwind.css" />
@@ -21,6 +23,7 @@
     <script>
       new WOW().init();
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
 
   <body>
@@ -31,7 +34,7 @@
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a href="index.html" class="navbar-logo block w-full py-5">
+            <a href="" class="navbar-logo block w-full py-5">
               <img
                 src="assets/images/logo/kavun2.svg"
                 alt="logo"
@@ -388,7 +391,7 @@
                 Kavun is your digital partner, dedicated to taking your business higher. 
                   <br />
                   <br />
-                  With our team of developers and domain experts, we're here to understand what makes your business unique. Count on us to deliver custom software solutions that truly meet your needs.
+                  With our team of developers, technical advisors, and domain experts, we're here to understand what makes your business unique. Count on us to deliver custom software solutions that truly meet your needs.
                 </p>
               </div>
             </div>
@@ -1283,7 +1286,7 @@
                 Our Creative Team
               </h2>
               <p class="text-base text-body-color dark:text-dark-6">
-                Our team consist of experienced developers, scientific advisors, and domain experts.
+                Our team consist of experienced developers, technical advisors, and domain experts.
               </p>
             </div>
           </div>
@@ -1292,6 +1295,7 @@
           <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
+              style="height: 325px;"
             >
               <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
@@ -1532,7 +1536,7 @@
                   Ayberk Yaşa
                 </h4>
                 <p class="mb-5 text-sm text-body-color dark:text-dark-6">
-                  Co-Founder
+                  Co-Founder & Software Engineer
                 </p>
                 <div class="flex items-center justify-center gap-5">
                   <a
@@ -1560,6 +1564,7 @@
           <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
+              style="height: 325px;"
             >
               <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
@@ -1692,7 +1697,7 @@
                   Nihat Özdemir
                 </h4>
                 <p class="mb-5 text-sm text-body-color dark:text-dark-6">
-                  Co-Founder
+                  Co-Founder & Software Engineer
                 </p>
                 <div class="flex items-center justify-center gap-5">
                   <a
@@ -1720,10 +1725,11 @@
           <div class="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
             <div
               class="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none"
+              style="height: 325px;"
             >
               <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                 <img
-                  src="assets/images/team/eraytuzun.jpeg"
+                  src="assets/images/team/eraytuzun.jpg"
                   alt="team image"
                   class="h-[120px] w-[120px] rounded-full"
                 />
@@ -1849,10 +1855,10 @@
                 <h4
                   class="mb-1 text-lg font-semibold text-dark dark:text-white"
                 >
-                  Eray Tüzün
+                  Asst. Prof. Eray Tüzün
                 </h4>
-                <p class="mb-5 text-sm text-body-color dark:text-dark-6">
-                  Scientific Advisor
+                <p class="mb-5 xs:mb-10 text-sm text-body-color dark:text-dark-6">
+                  Technical Advisor
                 </p>
                 <div class="flex items-center justify-center gap-5">
                   <a
@@ -2290,7 +2296,9 @@
                       How Can We Help?
                     </h5>
                     <p class="text-base text-body-color dark:text-dark-6">
-                      info@kavunlabs.com
+                      <a href="mailto:info@kavunlabs.com">
+                        info@kavunlabs.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -2308,11 +2316,11 @@
               >
                 Send us a Message
               </h3>
-              <form>
+              <form id="invisible-recaptcha-form" action="https://usebasin.com/f/7db72ec800c7" method="post">
                 <div class="mb-[22px]">
                   <label
                     for="fullName"
-                    class="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    class="mb-2 block text-sm text-body-color dark:text-dark-6"
                     >Full Name*</label
                   >
                   <input
@@ -2325,7 +2333,7 @@
                 <div class="mb-[22px]">
                   <label
                     for="email"
-                    class="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    class="mb-2 block text-sm text-body-color dark:text-dark-6"
                     >Email*</label
                   >
                   <input
@@ -2338,7 +2346,7 @@
                 <div class="mb-[22px]">
                   <label
                     for="phone"
-                    class="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    class="mb-2 block text-sm text-body-color dark:text-dark-6"
                     >Phone*</label
                   >
                   <input
@@ -2351,15 +2359,21 @@
                 <div class="mb-[30px]">
                   <label
                     for="message"
-                    class="mb-4 block text-sm text-body-color dark:text-dark-6"
+                    class="mb-2 block text-sm text-body-color dark:text-dark-6"
                     >Message*</label
                   >
                   <textarea
                     name="message"
-                    rows="1"
+                    rows="3"
                     placeholder="type your message here"
                     class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   ></textarea>
+                </div>
+                <div 
+                  class="g-recaptcha" 
+                  data-sitekey="6LeczTspAAAAAAPFyCqifknhPm2seTh16wDRCW43" 
+                  data-callback='onSubmit' 
+                  data-size="invisible">
                 </div>
                 <div class="mb-0">
                   <button
@@ -2847,7 +2861,20 @@
 
 
     <!-- ====== All Scripts -->
-
+    <script>
+      document.getElementById('invisible-recaptcha-form').addEventListener(
+        'submit',
+        function () {
+          event.preventDefault();
+          grecaptcha.reset();
+          grecaptcha.execute();
+        },
+        false,
+      );
+      function onSubmit(token) {
+        document.getElementById('invisible-recaptcha-form').submit();
+      }
+    </script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script>

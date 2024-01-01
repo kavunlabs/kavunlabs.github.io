@@ -3063,3 +3063,7 @@ body {
     padding: 60px;
   }
 }
+
+.cta-layer {
+  z-index: -999999;
+}
